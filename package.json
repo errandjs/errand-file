@@ -1,0 +1,25 @@
+{
+  "name": "errand-file",
+  "version": "0.1.1",
+  "description": "errand component for working with files",
+  "main": "lib/errand-file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/errandjs/errand-file.git"
+  },
+  "author": "mattcam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/errandjs/errand-file/issues"
+  },
+  "homepage": "https://github.com/errandjs/errand-file#readme",
+  "dependencies": {
+    "kue": "^0.11.6",
+    "mongodb": "^2.2.30",
+    "node-handlebars": "^0.9.7",
+    "underscore": "^1.8.3"
+  }
+}
