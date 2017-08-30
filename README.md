@@ -88,8 +88,8 @@ Notes:
 
 Notes:
 
-* **tasks[].data.request.parameters.template** - required location and file name for output file, file location is relative to current directory
+* **tasks[].data.request.parameters.file** - required location and file name for output file, file location is relative to current directory
 * **tasks[].data.request.parameters.template** - required handlebars template name, for example `/views/document`, refer to [errand usage notes](https://github.com/errandjs/errand#usage) for how to pass directory location for templates files names to component
 * **tasks[].data.request.parameters.partialsDir** - required location of partial files, file location is relative to current directory
-* **tasks[].data.request.parameters.context** - optional variables that can be used in the body of the document
+* **tasks[].data.request.parameters.context** - optional variables available for use in the template
 
